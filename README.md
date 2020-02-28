@@ -1,2 +1,1 @@
-# gideon
-an iot platform
+MAGENTA VOICE it is an indevelopment IoT platform.
