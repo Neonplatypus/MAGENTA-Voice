@@ -7,6 +7,4 @@ pip install pyttsx3
 pip install wikipedia
 pip install datetime
 
-
-
 Other Modules are Already installed Alongside python installation
