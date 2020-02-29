@@ -16,15 +16,15 @@ def speak(audio):
 
 def wishMe():
     hour = int(datetime.datetime.now().hour)
-    if hour>=0 and hour<12:
+    if hour>=5 and hour<=11:
         speak("Good Morning!")
-
-    elif hour>=12 and hour<18:
+    elif hour>=13 and hour<17:
         speak("Good Afternoon!")
-
+    elif hour>=19 and hour>=4:
+        speak("Good Night")     
     else:
-        speak("Good Evening!")
-    speak("Welcom to world of gideon how may i help you")
+        speak("Please Once again Check your Code in time Division")
+    speak("Hello, its your MAGENTA how may i help you")
 def takeCommand():
     
     r = sr.Recognizer()
