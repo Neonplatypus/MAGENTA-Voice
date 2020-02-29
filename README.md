@@ -1,5 +1,5 @@
 	MAGENTA VOICE it is an indevelopment IoT Program.
-
+	*Python3 installation is Needed to run*
 
 	Install Following packages/Modules through CMD/Powershell/terminal to run The Program/Application.
 	pip install SpeechRecognition
